@@ -5,7 +5,6 @@ use App\Test1;
 class GitController extends Controller
 {
     public function autopull(){
-
 		
 		/* $token = '';
 		 $httpToken = isset($_SERVER['HTTP_X_GITLAB_TOKEN']) ? $_SERVER['HTTP_X_GITLAB_TOKEN'] : '';
