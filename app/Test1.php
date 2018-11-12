@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class Test1 extends Authenticatable
 {
 	protected $table = 'test';
-	protected $primaryKey = 'id';
+	//protected $primaryKey = 'id';
 	
  	/* public static function test(){
  		 return 5566633;
