@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('aaa','Test\Test1Controller@info');
+Route::get('autopull','Git\GitController@autopull');
