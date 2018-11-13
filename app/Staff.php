@@ -5,9 +5,9 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Test1 extends Authenticatable
+class Staff extends Authenticatable
 {
-	protected $table = 'test';
+	protected $table = 'hf_staff';
 	//protected $primaryKey = 'id';
 	
  	/* public static function test(){
